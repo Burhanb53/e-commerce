@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link href="https://cdn.jsdelivr.net/npm/remixicon@4.2.0/fonts/remixicon.css" rel="stylesheet" />
+    <script src="https://cdn.tailwindcss.com"></script>
+</head>
+
+<body class="font-['helvetica_now_display']">
+    <!-- Navigation Bar -->
+    <nav class="w-full fixed top-0 left-0 px-5 py-3 bg-white shadow-md flex justify-between items-center">
+        <!-- Brand/Logo -->
+        <a href="/shop">
+            <h3 class="text-xl font-semibold">Scatch</h3>
+        </a>
+
+        <!-- Navigation Links -->
+        <div class="flex items-center gap-5">
+            <!-- Shop Option -->
+            <a href="/shop" class="text-gray-800 hover:text-gray-500 text-lg">Shop</a>
+
+            <!-- Cart Option with Icon -->
+            <a href="/cart" class="text-gray-800 hover:text-gray-500 text-lg flex items-center gap-1">
+                <i class="ri-shopping-cart-line text-2xl"></i> Cart
+            </a>
+
+            <!-- Logout Option -->
+            <a href="users/logout" class="text-gray-800 hover:text-red-500 text-lg">Logout</a>
+        </div>
+    </nav>
